@@ -1,0 +1,140 @@
+Dependencies for Project 'Progetto', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6150000::V6.15::ARMCLANG
+F (.\main.c)(0x6197DA10)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F373318)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26E9A8)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F373324)
+I (led.h)(0x6197DA0E)
+I (pulsanti.h)(0x6197DA0D)
+I (interrupt.h)(0x6197DA13)
+I (SysClock.h)(0x61932CF2)
+I (LCD.h)(0x61932A20)
+I (Ultrasuoni.h)(0x6197DA0B)
+F (.\led.h)(0x6197DA0E)()
+F (.\led.c)(0x6193271C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/led.o -MD)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F373318)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26E9A8)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (led.h)(0x6197DA0E)
+I (SysClock.h)(0x61932CF2)
+F (.\pulsanti.c)(0x6193271C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/pulsanti.o -MD)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F373318)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26E9A8)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (pulsanti.h)(0x6197DA0D)
+I (SysClock.h)(0x61932CF2)
+F (.\pulsanti.h)(0x6197DA0D)()
+F (.\interrupt.c)(0x61932AD8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/interrupt.o -MD)
+I (interrupt.h)(0x6197DA13)
+I (led.h)(0x6197DA0E)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F373318)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26E9A8)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+F (.\interrupt.h)(0x6197DA13)()
+F (.\SysClock.c)(0x6193271C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/sysclock.o -MD)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F373318)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26E9A8)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (SysClock.h)(0x61932CF2)
+F (.\SysClock.h)(0x61932CF2)()
+F (.\SysTick.c)(0x6193271C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/systick.o -MD)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F373318)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26E9A8)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (led.h)(0x6197DA0E)
+F (.\LCD.c)(0x61932A20)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/lcd.o -MD)
+I (lcd.h)(0x61932A20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F373318)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26E9A8)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F373314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F373324)
+I (Pulsanti.h)(0x6197DA0D)
+F (.\LCD.h)(0x61932A20)()
+F (.\Ultrasuoni.c)(0x61932DE2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/ultrasuoni.o -MD)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F373318)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26E9A8)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (Ultrasuoni.h)(0x6197DA0B)
+I (SysClock.h)(0x61932CF2)
+I (Led.h)(0x6197DA0E)
+I (LCD.h)(0x61932A20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F373324)
+F (.\Ultrasuoni.h)(0x6197DA0B)()
+F (RTE\Device\STM32L476VGTx\startup_stm32l476xx.s)(0x6193271E)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 533" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32L476xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32l476xx.o)
+F (RTE\Device\STM32L476VGTx\system_stm32l4xx.c)(0x6193271E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/simop/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/simop/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.5.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./objects/system_stm32l4xx.o -MD)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x5F732650)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F373318)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F3392)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26E9A8)
+I (C:\Users\simop\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (C:\Users\simop\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
